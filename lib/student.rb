@@ -1,9 +1,9 @@
 class Student < User
 
-  knowledge =[]
+  @knowledge = []
   
   def initialize()
-     knowledge
+     return @knowledge
   end
   
   def learn(knowledge)
