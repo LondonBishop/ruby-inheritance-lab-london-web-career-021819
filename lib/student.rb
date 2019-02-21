@@ -14,4 +14,5 @@ class Student < User
   def knowledge
     return @knowledge
   end
+  
 end
